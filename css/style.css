@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: rgb(214, 214, 214);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+header {
+    display: flex;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    height: 35px;
+}
+
+input#itexto{
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 10px 0px 0px 10px
+    
+}
+
+input.add {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70vw;
+    margin: auto auto;
+    padding-top: 40px;
+   
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.384);
+    margin-bottom: 2%;
+}
+
+.item.clicado {
+    background-color: #d4f6d9;
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.item-icone {
+    text-align: center;
+    flex: 5%;
+    margin-top: 5px;
+}
+
+.item-nome {
+    flex: 75%;
+    font-size: 20px;
+}
+
+.item-botao {
+    flex: 10%;
+}
+.deletar {
+    background-color: rgb(221, 33, 33);
+    color: white;
+    border: none;
+    height: 80px;
+    width: 100%;
+
+}
+
+
+
+
